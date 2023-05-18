@@ -55,7 +55,7 @@ function register_custom_3d_block() {
         'custom-3d-block-script',
         plugins_url( 'custom-3d-block.js', __FILE__ ),
         array( 'wp-blocks', 'wp-element', 'wp-editor', 'wp-components' ),
-        filemtime( plugin_dir_path( __FILE__ ) . './js/3d-block.js' )
+        filemtime( plugin_dir_path( __FILE__ ) . 'js/3d-block.js' )
     );
 
     register_block_type( 'custom-3d-block/block', array(
